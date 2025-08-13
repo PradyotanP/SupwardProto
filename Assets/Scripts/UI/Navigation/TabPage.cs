@@ -12,15 +12,10 @@ using UnityEngine;
 /// </summary>
 public class TabPage : MonoBehaviour
 {
-    // /// <summary>
-    // /// The tab that this page is associated with
-    // /// </summary>
-    // [Tooltip("The tab that this page is associated with")]
-    // [SerializeField] private Tab associatedTab;
-
     /// <summary>
     /// The tab group that this page belongs to
     /// </summary>
+    [Tooltip("The tab group that this page belongs to")]
     [SerializeField] private TabGroup tabGroup;
 
     /// <summary>

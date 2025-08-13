@@ -87,6 +87,7 @@ GameObject:
   - component: {fileID: 5067311169143145666}
   - component: {fileID: 561885618915293069}
   - component: {fileID: 2088743492003574250}
+  - component: {fileID: 7105839066933492082}
   m_Layer: 5
   m_Name: TabPageCanvas
   m_TagString: Untagged
@@ -159,7 +160,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &2088743492003574250
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,3 +178,16 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &7105839066933492082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5711214098637621939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37da77f9108fdf24a92563dac1409d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tabGroup: {fileID: 0}

@@ -34,6 +34,12 @@ public class TabGroup : MonoBehaviour
     [Tooltip("Sprite for tabs when hovered by the pointer")]
     [SerializeField] private Sprite hoverTabSprite;
 
+    [Header("Tab Pages")]
+    /// <summary>
+    /// List of GameObjects representing the pages associated with each tab
+    /// </summary>
+    [SerializeField] private List<GameObject> tabPages;
+
     // Public properties to access tab sprites
     public Sprite IdleTabSprite => idleTabSprite;
     public Sprite SelectedTabSprite => selectedTabSprite;

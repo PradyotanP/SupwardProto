@@ -23,6 +23,8 @@ public class Tab : MonoBehaviour, IPointerEnterHandler, IPointerClickHandler, IP
     [Tooltip("The background image of the tab, used to visually indicate state")]
     [SerializeField] private Image backgroundImage;
 
+    [SerializeField] private TabPage associatedPage;
+
     /// <summary>
     /// Subscribes this tab to its TabGroup on initialization.
     /// </summary>
@@ -46,6 +48,7 @@ public class Tab : MonoBehaviour, IPointerEnterHandler, IPointerClickHandler, IP
         // Logic to visually indicate the tab is selected
         Debug.Log($"{name} selected");
         SetBackgroundImage(tabGroup.SelectedTabSprite);
+        associatedPage.ActivatePage();
     }
 
     /// <summary>
@@ -56,6 +59,7 @@ public class Tab : MonoBehaviour, IPointerEnterHandler, IPointerClickHandler, IP
         // Logic to visually indicate the tab is deselected
         Debug.Log($"{name} deselected");
         SetBackgroundImage(tabGroup.IdleTabSprite);
+        associatedPage.DeactivatePage();
     }
 
     /// <summary>

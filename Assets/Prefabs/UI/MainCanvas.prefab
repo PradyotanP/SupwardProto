@@ -198,6 +198,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7105839066933492082, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
+      propertyPath: tabGroup
+      value: 
+      objectReference: {fileID: 3090159205939827033}
     - target: {fileID: 7744754401131117167, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -215,6 +219,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
+--- !u!114 &4711465332541564848 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7105839066933492082, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
+  m_PrefabInstance: {fileID: 2593930699205304002}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37da77f9108fdf24a92563dac1409d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &8567627319205077508 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6131982520431574214, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
@@ -228,6 +243,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2847409827533893219}
     m_Modifications:
+    - target: {fileID: 561885618915293069, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5711214098637621939, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
       propertyPath: m_Name
       value: TabPageCanvas (3)
@@ -312,6 +331,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7105839066933492082, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
+      propertyPath: tabGroup
+      value: 
+      objectReference: {fileID: 3090159205939827033}
     - target: {fileID: 7744754401131117167, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
       propertyPath: m_Color.a
       value: 0.61960787
@@ -338,6 +361,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6131982520431574214, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
   m_PrefabInstance: {fileID: 5230843010919383775}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3029430489158433709 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7105839066933492082, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
+  m_PrefabInstance: {fileID: 5230843010919383775}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37da77f9108fdf24a92563dac1409d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5872487302856402601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -430,6 +464,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7105839066933492082, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
+      propertyPath: tabGroup
+      value: 
+      objectReference: {fileID: 3090159205939827033}
     - target: {fileID: 7744754401131117167, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
       propertyPath: m_Color.a
       value: 0.61960787
@@ -456,6 +494,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6131982520431574214, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
   m_PrefabInstance: {fileID: 5872487302856402601}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3738628625282801627 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7105839066933492082, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
+  m_PrefabInstance: {fileID: 5872487302856402601}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37da77f9108fdf24a92563dac1409d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7448350456873211081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -496,6 +545,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1802120502072710208, guid: 203e8499dd6aa0f4889583fa350e694a, type: 3}
+      propertyPath: associatedPage
+      value: 
+      objectReference: {fileID: 3029430489158433709}
     - target: {fileID: 3231865573906167645, guid: 203e8499dd6aa0f4889583fa350e694a, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -516,6 +569,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: TabButtonsFooterGroup
       objectReference: {fileID: 0}
+    - target: {fileID: 3733461834546092253, guid: 203e8499dd6aa0f4889583fa350e694a, type: 3}
+      propertyPath: associatedPage
+      value: 
+      objectReference: {fileID: 4711465332541564848}
+    - target: {fileID: 4604454683624204352, guid: 203e8499dd6aa0f4889583fa350e694a, type: 3}
+      propertyPath: associatedPage
+      value: 
+      objectReference: {fileID: 2092610970591631961}
+    - target: {fileID: 6734928440421228366, guid: 203e8499dd6aa0f4889583fa350e694a, type: 3}
+      propertyPath: associatedPage
+      value: 
+      objectReference: {fileID: 3738628625282801627}
     - target: {fileID: 7542625757826661459, guid: 203e8499dd6aa0f4889583fa350e694a, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -622,6 +687,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8285715482358912827, guid: 203e8499dd6aa0f4889583fa350e694a, type: 3}
   m_PrefabInstance: {fileID: 7448350456873211081}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3090159205939827033 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5602381367900472720, guid: 203e8499dd6aa0f4889583fa350e694a, type: 3}
+  m_PrefabInstance: {fileID: 7448350456873211081}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3403abe2a5b01e1459d2f56cb7458011, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &9193940775952114475
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -630,6 +706,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2847409827533893219}
     m_Modifications:
+    - target: {fileID: 561885618915293069, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5711214098637621939, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
       propertyPath: m_Name
       value: TabPageCanvas
@@ -714,6 +794,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7105839066933492082, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
+      propertyPath: tabGroup
+      value: 
+      objectReference: {fileID: 3090159205939827033}
     - target: {fileID: 7744754401131117167, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
       propertyPath: m_Color.a
       value: 0.59607846
@@ -735,6 +819,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
+--- !u!114 &2092610970591631961 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7105839066933492082, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
+  m_PrefabInstance: {fileID: 9193940775952114475}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37da77f9108fdf24a92563dac1409d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &3066491688364056557 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6131982520431574214, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}

@@ -1,9 +1,8 @@
-/*
-Author: Ayush Bhardwaj
-Date Created: August 12, 2025
-Description: This script manages a group of tabs in a UI, allowing for selection, hover effects, and visual state management.
-email: ayushb.developer@gmail.com
-*/
+//Author: Ayush Bhardwaj
+//Date Created: August 12, 2025
+//Description: This script represents a single tab in a tab group UI. Handles selection, hover, and click events.
+//email: ayushb.developer@gmail.com
+
 using UnityEngine.UI;
 using UnityEngine;
 using UnityEngine.EventSystems;

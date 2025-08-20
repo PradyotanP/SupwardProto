@@ -114,6 +114,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2847409827533893219}
     m_Modifications:
+    - target: {fileID: 561885618915293069, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5711214098637621939, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
       propertyPath: m_Name
       value: TabPageCanvas (2)
@@ -380,6 +384,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2847409827533893219}
     m_Modifications:
+    - target: {fileID: 561885618915293069, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5711214098637621939, guid: 38ff4900dfc205d449fe63c217211cba, type: 3}
       propertyPath: m_Name
       value: TabPageCanvas (1)

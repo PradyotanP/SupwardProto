@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "496407597444",
+    "project_id": "supward-prototype",
+    "storage_bucket": "supward-prototype.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496407597444:android:324c502780b2a1d31c8dd1",
+        "android_client_info": {
+          "package_name": "com.Spaak.SupwardPrototype"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKOQ5zs_RYWWgeXxaENU5PD7G8EIFW4Wc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
